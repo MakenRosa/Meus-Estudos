@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovers</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #menu > p {
+            display: none;
+            color: black;
+            text-align: center;
+            border-width: 3px;
+            border-color: green;
+            border-style: dashed;
+        }
+        #menu:hover > p{
+            display: block;
+            width: 150px;
+            background-color: brown;
+            text-align: center;
+        }
+        #menu:hover{
+            color:yellowgreen;
+        }
+        #menu {
+            text-align: center;
+            width: 115px;
+            border-bottom: 0cm;
+            border-width: 2px;
+            border-color: green;
+            border-style: dashed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse nesse texto V</p>
+    <div id="menu">AQUI MESMO
+        <p>Texto escondido...</p>
+    </div>
+    <div><br> Aqui também
+        <p>saske</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{margin: 0px;}
+body{
+    font: normal 15pt Arial ;
+    background-color: rgb(122, 170, 226);
+}
+header{
+    text-align: center;
+    color:white;
+    margin: 20px auto 20px auto;
+}
+section{
+    background-color: white;
+    margin:25px;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px 1px;
+}
+section > div > p{
+    margin: 10px;
+}
+input#ano {
+    width: 65px;
+}
+footer{
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,22 @@
+body{
+    margin: 30px
+}
+.box{
+    background-color: rgb(34, 199, 144);
+    height: 300px;
+    width: 300px;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 1s, 0.8s;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1)
+}
+.box:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+.box:active::after{
+    content: 'Vai bot';
+    margin: auto;
+    height: 50%;
+    font-size: 20pt;
+}

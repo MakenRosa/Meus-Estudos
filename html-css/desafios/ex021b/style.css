@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/Alégre.ttf');}
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf');
+}
+table{
+    width: 100%;
+    margin-left: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+td{
+    text-decoration: underline;
+}
+iframe{
+    float: none; display: block; margin-left: auto; margin-right: auto;
+}
+#video{
+    background-color: rgb(0, 54, 0);
+    padding: 10px;
+}
+#rodape{
+    border-radius: 4px;
+    background-color: rgb(165, 199, 165);
+    margin: 20px 15px 5px 15px ;
+    padding: 1px 0px 10px 0px;
+}
+h3{
+    margin: -1px 0px;
+    background-color: rgb(0, 54, 0);
+    color:white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1px 4px
+}
+#bug{
+    max-width: 300px;
+}
+img{
+    float: none; display: block; margin-left: auto; margin-right: auto;
+    width: 95%;
+}
+a{
+    text-decoration: none;
+    color: #113f1e;
+    font-weight: bold;
+    background-color: rgb(189, 214, 140);
+    padding: 2px;
+    border-radius: 2px;
+}
+body{
+    min-width: fit-content;
+    background-color: tan;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+#principal{
+
+    min-width: 320px;
+    max-width: 950px;
+    padding-top: 0px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.274);
+}
+#titulo-principal{
+    font-family: "droid";
+    font-size: x-large;
+    margin-top: 0px;
+    padding: 20px 0px 0px 20px;
+}
+header{
+    background-image: linear-gradient(to bottom, #208020,#113f1e) ;
+    height: 170px;
+    border: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.151);
+}
+#nome-da-materia{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding-top: 10px;
+    font-family: "fonte";
+    font-weight: 100;
+    font-size: 45px;
+    color:white;
+}
+#resumo-materia{
+    text-align: center;
+    padding-bottom: 28px;
+    max-width: 100%;
+    max-height: 20%;
+}
+nav > a:hover{
+    text-decoration: none;
+    background-color: rgb(108, 138, 108);
+    border-radius: 2px;
+    color: green;
+    padding-bottom: 8px;
+    transition-duration: 0.3s;
+}
+nav > a{
+    padding: 2px 2px 8px 2px;
+    text-decoration: none;
+    color: rgb(187, 243, 210);
+    margin: 0px 10px 0px 15px ;
+    background-color: transparent;
+}
+ h1{
+     letter-spacing: 0.5px;
+     color: #105010
+ }
+ p{
+    padding: 0px 20px 0px 20px;
+     text-indent: 20px;
+     text-align: justify;
+     line-height: 1.3em;
+     letter-spacing: 0.5px;
+ }
+ h2{
+     padding-left: 20px;
+     font-size: large;
+     font-family: "droid";
+     color: #105010;
+     background-image: linear-gradient(to right,yellowgreen 40%, transparent);
+ }
+.destaque{
+    font-weight: bold;
+    color: green;
+}
+#fim{
+    margin: 0px 10px 0px 10px;
+    padding: 5px 10px 110px 10px;
+}
+#credito > p{
+    margin: 0px 0px 0px 0px;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: 400;
+    padding: 6px;
+    font-size: 0.8em;
+}
+strong:hover{
+    text-decoration: underline;
+}

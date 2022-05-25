@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif; color: #bdbdbd;}
+h1{
+    color: #3E43EB;
+}
+h2{
+    color:#9B9E19
+}
+#principal{
+    text-align: center;
+    background-color: #EBAB49;
+    color: rgb(255, 255, 255);
+    
+}
+.basico{
+    text-decoration: underline;
+}
+.intermediario{
+    text-decoration: underline;
+}
+.curso{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.144);
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes move-down{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(30px)
+    }
+}
+.descricaodocurso{
+    background-color: #313131dc;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            border: 1px solid black;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n){
+                background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <caption>População dos Estados brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 443 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 377 229</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 132 078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 672 065</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 164 768</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7 706 181</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 132 078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 672 065</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 164 768</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7 706 181</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 377 229</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 132 078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 672 065</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 164 768</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7 706 181</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 132 078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 672 065</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 164 768</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7 706 181</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>105.564.765</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
