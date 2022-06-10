@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+import xlsxwriter
 from bs4 import BeautifulSoup
 from datetime import datetime
 
